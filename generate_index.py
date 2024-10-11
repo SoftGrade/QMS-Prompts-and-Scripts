@@ -1,7 +1,7 @@
 import os
 
-# Obtener la lista de archivos en el directorio actual
-files = [f for f in os.listdir('.') if f.endswith('.txt')]
+# Obtener la lista de archivos en el directorio actual con extensión .txt o .js
+files = [f for f in os.listdir('.') if f.endswith('.txt') or f.endswith('.js')]
 
 # Crear el contenido del index.html
 html_content = '''<!DOCTYPE html>
@@ -9,7 +9,7 @@ html_content = '''<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lista de archivos de texto</title>
+  <title>Lista de archivos</title>
   <style>
     body {
       font-family: Arial, sans-serif;
