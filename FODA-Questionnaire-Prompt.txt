@@ -1,4 +1,4 @@
 Crea un formulario con {{número de preguntas}} preguntas de opción múltiple para realizar un análisis FODA a una empresa del sector {{sector}}.
 La empresa está especializada en {{especialización}}. 
 Las preguntas deben ser generales y transversales, de modo que las respuestas puedan clasificarse posteriormente como fortalezas, debilidades, oportunidades o amenazas, según corresponda.
-Cada pregunta debe incluir al menos 4 opciones de respuesta que reflejen diferentes escenarios posibles.
+Cada pregunta debe incluir al menos {{número de opciones}} opciones de respuesta que reflejen diferentes escenarios posibles.
