@@ -1,0 +1,20 @@
+Genera un script de Google Apps Script que cree un formulario en Google Forms titulado "{{nombre_del_formulario}}".
+El formulario debe contener preguntas de opción múltiple, donde cada pregunta tendrá su enunciado y opciones de respuesta.
+Las preguntas y sus respectivas opciones son las siguientes:
+1. Pregunta: {{pregunta_1}}  
+   Opciones: 
+   - {{opción_1a}}  
+   - {{opción_1b}}  
+   - {{opción_1c}}  
+   - {{opción_1d}}
+2. Pregunta: {{pregunta_2}}  
+   Opciones: 
+   - {{opción_2a}}  
+   - {{opción_2b}}  
+   - {{opción_2c}}  
+   - {{opción_2d}}
+
+(continúa hasta completar todas las preguntas y respuestas).
+
+El script debe incluir las instrucciones necesarias para crear cada pregunta como una pregunta de opción múltiple y agregar las opciones de respuesta. 
+El script debe ejecutarse en Google Apps Script para crear el formulario automáticamente.
