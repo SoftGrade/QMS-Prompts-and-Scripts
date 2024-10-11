@@ -1,0 +1,4 @@
+Crea un formulario con 16 preguntas de opción múltiple para realizar un análisis FODA a una empresa del sector tecnológico.
+La empresa está especializada en venta, instalación y mantenimiento de equipos de cómputo, electrónicos y de comunicaciones.
+Las preguntas deben ser generales y transversales, de modo que las respuestas puedan clasificarse posteriormente como fortalezas, debilidades, oportunidades o amenazas, según corresponda.
+Cada pregunta debe incluir al menos 4 opciones de respuesta que reflejen diferentes escenarios posibles.
