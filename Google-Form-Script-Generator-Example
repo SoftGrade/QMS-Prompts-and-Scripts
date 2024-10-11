@@ -1,0 +1,117 @@
+Genera un script de Google Apps Script que cree un formulario en Google Forms titulado "Análisis FODA - Cuestionario".
+El formulario debe contener preguntas de opción múltiple, donde cada pregunta tendrá su enunciado y opciones de respuesta.
+Las preguntas y sus respectivas opciones son las siguientes:
+1. Pregunta: ¿Cómo describirías la calidad del servicio técnico que ofrece tu empresa?  
+   Opciones: 
+   - A) Excelente, nuestros clientes siempre están satisfechos.  
+   - B) Buena, aunque a veces recibimos comentarios para mejorar.  
+   - C) Regular, frecuentemente se presentan quejas o problemas.  
+   - D) Deficiente, tenemos muchas quejas y devoluciones.
+
+2. Pregunta: ¿Cuál es el nivel de capacitación técnica de tu personal en cuanto a los equipos más avanzados del mercado?  
+   Opciones: 
+   - A) Muy alto, están completamente actualizados.  
+   - B) Bueno, aunque necesitan algunas actualizaciones.  
+   - C) Moderado, requieren una capacitación significativa.  
+   - D) Bajo, están desactualizados respecto a las nuevas tecnologías.
+
+3. Pregunta: ¿Cómo es la relación de tu empresa con los proveedores de equipos y tecnología?  
+   Opciones: 
+   - A) Excelente, obtenemos buenos precios y soporte técnico continuo.  
+   - B) Buena, aunque a veces tenemos retrasos o problemas.  
+   - C) Regular, enfrentamos dificultades para obtener soporte o descuentos.  
+   - D) Deficiente, tenemos problemas constantes con los proveedores.
+
+4. Pregunta: ¿Cómo valoras la posición de tu empresa en comparación con la competencia en términos de precios?  
+   Opciones: 
+   - A) Competitiva, ofrecemos precios muy atractivos.  
+   - B) Similar, nuestros precios están alineados con la competencia.  
+   - C) Algo altos, pero justificamos con la calidad del servicio.  
+   - D) Altos, muchos clientes se quejan de nuestros precios.
+
+5. Pregunta: ¿Cómo es la lealtad de tus clientes?  
+   Opciones: 
+   - A) Muy alta, tenemos muchos clientes recurrentes.  
+   - B) Buena, aunque algunos se han ido con la competencia.  
+   - C) Moderada, necesitamos trabajar en retener más clientes.  
+   - D) Baja, muchos clientes prefieren otras empresas.
+
+6. Pregunta: ¿Qué tan diversificada está tu empresa en cuanto a los servicios ofrecidos?  
+   Opciones: 
+   - A) Muy diversificada, ofrecemos una amplia gama de servicios.  
+   - B) Diversificada, pero hay áreas en las que podríamos mejorar.  
+   - C) Limitada, no ofrecemos muchos servicios adicionales.  
+   - D) Muy limitada, nos enfocamos solo en lo básico.
+
+7. Pregunta: ¿Cómo gestionas las quejas y reclamos de los clientes?  
+   Opciones: 
+   - A) Muy eficientemente, resolvemos los problemas de forma rápida.  
+   - B) Bien, pero algunos casos tardan en resolverse.  
+   - C) Regular, hay quejas que no son resueltas adecuadamente.  
+   - D) Mal, solemos recibir críticas sobre nuestra atención al cliente.
+
+8. Pregunta: ¿Qué tan innovadora es tu empresa en comparación con la competencia?  
+   Opciones: 
+   - A) Muy innovadora, estamos a la vanguardia de las nuevas tecnologías.  
+   - B) Innovamos de vez en cuando, pero no constantemente.  
+   - C) Nos mantenemos a la par con la competencia, pero no destacamos.  
+   - D) Poco innovadora, estamos rezagados respecto a la competencia.
+
+9. Pregunta: ¿Cómo es la estabilidad financiera de tu empresa en el corto y largo plazo?  
+   Opciones: 
+   - A) Muy estable, no tenemos problemas financieros.  
+   - B) Estable en el corto plazo, pero incierta en el largo plazo.  
+   - C) Inestable en el corto plazo, pero con buenas proyecciones a futuro.  
+   - D) Inestable tanto en el corto como en el largo plazo.
+
+10. Pregunta: ¿Cuál es la percepción de los clientes sobre la marca de tu empresa?  
+    Opciones: 
+    - A) Muy positiva, tenemos una excelente reputación.  
+    - B) Positiva, pero algunos clientes piensan que podemos mejorar.  
+    - C) Neutral, no tenemos una fuerte reputación en el mercado.  
+    - D) Negativa, muchos clientes critican nuestra marca.
+
+11. Pregunta: ¿Cómo describirías la infraestructura tecnológica de tu empresa (herramientas de software, equipos, etc.)?  
+    Opciones: 
+    - A) Muy avanzada, utilizamos lo último en tecnología.  
+    - B) Buena, aunque algunos sistemas necesitan actualización.  
+    - C) Regular, muchas de nuestras herramientas son anticuadas.  
+    - D) Deficiente, nuestra infraestructura tecnológica es muy limitada.
+
+12. Pregunta: ¿Qué tan efectiva es tu estrategia de marketing y publicidad?  
+    Opciones: 
+    - A) Muy efectiva, atraemos a muchos clientes potenciales.  
+    - B) Efectiva, aunque podríamos mejorar en algunos canales.  
+    - C) Poco efectiva, no atraemos suficientes clientes nuevos.  
+    - D) Inexistente, no invertimos mucho en marketing.
+
+13. Pregunta: ¿Cómo gestionas los cambios tecnológicos y la aparición de nuevos competidores?  
+    Opciones: 
+    - A) Nos adaptamos rápidamente a las nuevas tendencias.  
+    - B) Nos adaptamos, aunque a veces con retraso.  
+    - C) Nos cuesta adaptarnos a los cambios.  
+    - D) No estamos preparados para afrontar nuevos competidores.
+
+14. Pregunta: ¿Cuál es el nivel de dependencia de tu empresa en un número reducido de clientes?  
+    Opciones: 
+    - A) Muy bajo, tenemos una cartera de clientes diversificada.  
+    - B) Moderado, dependemos en parte de algunos clientes grandes.  
+    - C) Alto, unos pocos clientes representan la mayor parte de los ingresos.  
+    - D) Muy alto, nuestra empresa depende casi exclusivamente de unos pocos clientes.
+
+15. Pregunta: ¿Cómo impactan las fluctuaciones en los costos de los equipos y tecnologías en tu negocio?  
+    Opciones: 
+    - A) Poco, podemos absorber o transferir los costos sin problemas.  
+    - B) Moderado, algunas veces afecta nuestras ganancias.  
+    - C) Alto, frecuentemente reducimos márgenes para mantener precios competitivos.  
+    - D) Muy alto, las fluctuaciones de costos nos impactan significativamente.
+
+16. Pregunta: ¿Cómo valoras la proyección de crecimiento del mercado en el que opera tu empresa?  
+    Opciones: 
+    - A) Muy alta, el mercado tiene un enorme potencial de crecimiento.  
+    - B) Alta, el mercado crece a buen ritmo.  
+    - C) Moderada, el mercado es estable pero sin mucho crecimiento.  
+    - D) Baja, el mercado está saturado o en declive.
+
+El script debe incluir las instrucciones necesarias para crear cada pregunta como una pregunta de opción múltiple, agregar las opciones de respuesta, y luego obtener 
+el enlace para ver el formulario creado. El script debe ejecutarse en Google Apps Script para crear el formulario automáticamente.
