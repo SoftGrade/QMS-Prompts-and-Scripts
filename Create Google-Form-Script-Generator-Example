@@ -1,0 +1,18 @@
+Genera un script de Google Apps Script que cree un formulario en Google Forms titulado "Análisis FODA - Cuestionario".
+El formulario debe contener preguntas de opción múltiple, donde cada pregunta tendrá su enunciado y opciones de respuesta.
+Las preguntas y sus respectivas opciones son las siguientes:
+1. Pregunta: ¿Cómo describirías la calidad del servicio técnico que ofrece tu empresa?  
+   Opciones: 
+   - A) Excelente, nuestros clientes siempre están satisfechos.  
+   - B) Buena, aunque a veces recibimos comentarios para mejorar.  
+   - C) Regular, frecuentemente se presentan quejas o problemas.  
+   - D) Deficiente, tenemos muchas quejas y devoluciones.
+2. Pregunta: ¿Cuál es el nivel de capacitación técnica de tu personal en cuanto a los equipos más avanzados del mercado?  
+   Opciones: 
+   - A) Muy alto, están completamente actualizados.  
+   - B) Bueno, aunque necesitan algunas actualizaciones.  
+   - C) Moderado, requieren una capacitación significativa.  
+   - D) Bajo, están desactualizados respecto a las nuevas tecnologías.
+
+El script debe incluir las instrucciones necesarias para crear cada pregunta como una pregunta de opción múltiple, agregar las opciones de respuesta, y luego obtener 
+el enlace para ver el formulario creado. El script debe ejecutarse en Google Apps Script para crear el formulario automáticamente.
